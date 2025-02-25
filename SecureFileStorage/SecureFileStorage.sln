@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileStorage.API", "SecureFileStorage.API.csproj", "{8E31965D-5792-49F0-8054-CDC1293F02D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileStorage.Application", "..\SecureFileStorage.Application\SecureFileStorage.Application.csproj", "{20AF0B77-E32C-4EC6-A8D9-2DBF76EE4E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileStorage.Infrastructure", "..\SecureFileStorage.Infrastructure\SecureFileStorage.Infrastructure.csproj", "{D8E209F1-6BCB-4088-995A-8DE835C60834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileStorage.Domain", "..\SecureFileStorage.Domain\SecureFileStorage.Domain.csproj", "{59131D1F-1852-4C9C-B1D1-7C64D5AE1BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileStorage.Core", "..\SecureFileStorage.Core\SecureFileStorage.Core.csproj", "{E5197060-52BB-46F8-B2B7-CCD021A005A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileStorage.Tests", "..\SecureFileStorage.Tests\SecureFileStorage.Tests.csproj", "{BB3AED2C-7890-42EF-ACE8-553BAAD30DEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E31965D-5792-49F0-8054-CDC1293F02D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E31965D-5792-49F0-8054-CDC1293F02D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E31965D-5792-49F0-8054-CDC1293F02D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E31965D-5792-49F0-8054-CDC1293F02D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AF0B77-E32C-4EC6-A8D9-2DBF76EE4E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AF0B77-E32C-4EC6-A8D9-2DBF76EE4E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AF0B77-E32C-4EC6-A8D9-2DBF76EE4E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AF0B77-E32C-4EC6-A8D9-2DBF76EE4E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E209F1-6BCB-4088-995A-8DE835C60834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E209F1-6BCB-4088-995A-8DE835C60834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E209F1-6BCB-4088-995A-8DE835C60834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E209F1-6BCB-4088-995A-8DE835C60834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59131D1F-1852-4C9C-B1D1-7C64D5AE1BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59131D1F-1852-4C9C-B1D1-7C64D5AE1BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59131D1F-1852-4C9C-B1D1-7C64D5AE1BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59131D1F-1852-4C9C-B1D1-7C64D5AE1BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5197060-52BB-46F8-B2B7-CCD021A005A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5197060-52BB-46F8-B2B7-CCD021A005A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5197060-52BB-46F8-B2B7-CCD021A005A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5197060-52BB-46F8-B2B7-CCD021A005A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3AED2C-7890-42EF-ACE8-553BAAD30DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3AED2C-7890-42EF-ACE8-553BAAD30DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3AED2C-7890-42EF-ACE8-553BAAD30DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3AED2C-7890-42EF-ACE8-553BAAD30DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
